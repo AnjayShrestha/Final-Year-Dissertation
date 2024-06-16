@@ -1,0 +1,1 @@
+This is my college final year dissertation project, where I developed a social media platform similar to Facebook. I named this project ‘MultiGram.’ Using PHP, MySQL, HTML, CSS, jQuery, and Ajax, I created a platform where users can sign up, verify their email, log in, upload photos and videos, make posts, and chat with friends.
