@@ -1,0 +1,318 @@
+body{width: 100%; background-color: White; margin: 0%}
+
+/*header*/
+header{width: 100%; background-color: lightGrey;position: fixed; top:0; transition: 0.2s; 
+	box-shadow: 2px 3px White;height: 30px;}
+.logo a{text-decoration: none; color: Black;}
+
+/*main index*/
+main.index{padding: 48.8px;margin-top:1%;margin-left: 10%;margin-right:10%;margin-bottom: 0%;display: flex; flex-direction: row;}
+div.text{width: 50%; text-align: center; font-family: sans-serif; font-size: 30px; margin-left: 10% }
+div.login{width: 50%;margin-left: 10%; border-radius: 20px; background-color: DarkGrey}
+
+/*loginform*/
+div.login form{display: flex; flex-direction: column; padding: 10%}
+
+form.LoginForm a{Width: 93%;border-radius: 10px; color: Black; text-align: center; text-decoration:
+ none; padding: 10px; background-color: LightGrey; box-shadow: 3px 4px Grey; }
+
+/*footer*/
+footer{width: 100%; }
+footer p{ text-align: center;}
+
+/*Signup page*/
+main#sign{margin-top: 3%;padding: 2%; margin-left: 25%;margin-right:25%; 
+	background: lightgrey; border-radius: 5%;}
+#fullname{ border-radius: 10px;width:100%; display: flex;flex-direction: row; 
+	}
+#fullname input{border-radius: 10px;  padding: 10px;}
+#fn{width: 50%;}
+#ln{width:50%;margin-left: 1.5%;}
+input#email_id{border-radius: 10px;  padding: 10px;} /*email input*/
+input#userPassword{border-radius: 10px;  padding: 10px;} /*password input*/
+input#userConPassword{border-radius: 10px;  padding: 10px;} /*password input*/
+
+
+input#birthday{width: 30%;}
+select#gender{width: 30%;}
+
+select{padding: 10px;border-radius: 10px;margin-left: 1%;}
+input#signBtn{width: 50%; padding: 10px; border-radius: 10px; margin-left:24.5%; display: block;}
+
+label#ckBox{margin-left: 30%; margin-top: 0px;}
+#signupForm a{margin-left: 25%; border-radius: 10px; color: Black; text-align: center;
+ text-decoration: none; padding: 10px;padding-left: 22%; padding-right: 22%; 
+ background-color: darkgrey; box-shadow: 3px 4px lightgrey;}
+ #signupForm a:hover{background-color: grey;}
+
+/*usersFrame*/
+/*.userHeader div.LS{ }*/
+/*div.logo{margin-left: 2%;}*/
+main.user{margin-left: 26%;margin-right: 26%;margin-top: 2%;  padding:1px;}
+/*user index*/
+main.userIndex{margin-left: 16%;margin-right: 10%;margin-top: 0;  padding:1px;
+				display: flex; flex-direction: row;}
+
+/*header*/
+header.userHeader{
+	height: 20px;
+	 position: fixed;
+}
+
+
+
+/*profile design*/
+#profile-details {margin-top: 50px; width: 100%; height: auto;border-width: 1px; 
+	border-style: solid;  border-color: grey; border-radius: 5px;padding: 10px; 
+	background-color: lightgrey; display: flex;   flex-direction: row;}
+#profile-details:hover {box-shadow: 2px 3px 3px grey;}
+
+/*#profile-pic{margin-top: 5px; width: 40%; border: 1px solid black;*/
+ /*border-radius: 5px; display: flex; flex-direction: column;}*/
+
+#users-details{margin-left: 50px; margin-top: 30px;}
+
+/*user information*/
+#about_user{ margin-left:0px; width: 100%; height: 150%; background-color:rgba(0, 0, 0, 0.5); 
+	position: absolute; top: 0; display: flex; justify-content: center; align-items: center;
+	display: none; }
+#about_user_content{width: 500px; background-color: lightgrey; 
+	box-shadow: 2px 3px 3px grey; border-radius: 5px;   
+	padding: 20px;position: absolute;}
+
+#exit{position: absolute; top: 0;right: 14px;font-size: 42px;transform: rotate(45deg); 
+	cursor: pointer;}
+
+#deactivate_user{ margin-left:0px; width: 100%; height: 80%;  background-color:rgba(0, 0, 0, 0); 
+	position: absolute; top: 0; display: flex; justify-content: center; align-items: center;
+	display: none; }
+#deactivate_user_content{width: 500px; background-color: lightgrey; 
+	box-shadow: 2px 3px 3px grey; border-radius: 5px;   
+	padding: 20px;position: absolute;}
+
+
+#delete_user{ margin-left:0px; width: 100%; height: 80%;  background-color:rgba(0, 0, 0, 0); 
+	position: absolute; top: 0; display: flex; justify-content: center; align-items: center;
+	display: none; }
+#delete_user_content{width: 500px; background-color: lightgrey; 
+	box-shadow: 2px 3px 3px grey; border-radius: 5px;   
+	padding: 20px;position: absolute;}
+
+
+
+
+/*user profile*/
+/*profile*/
+
+.profile_text_area
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+
+#profile_message
+{
+	width: 100%;
+	height: auto;
+	min-height: 80px;
+	overflow: auto;
+	padding:6px 24px 6px 12px;
+}
+
+.profile_image_upload
+{
+	position: absolute;
+	top:3px;
+	right:3px;
+}
+.profile_image_upload > form > input
+{
+    display: none;
+}
+
+.profile_image_upload img
+{
+    width: 24px;
+    cursor: pointer;
+}
+
+/*post upload style*/
+.post_text_area
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+
+#post_message
+{
+	width: 100%;
+	height: auto;
+	min-height: 80px;
+	overflow: auto;
+	padding:6px 24px 6px 12px;
+}
+
+.image_upload
+{
+	position: absolute;
+	top:3px;
+	right:3px;
+}
+.image_upload > form > input
+{
+    display: none;
+}
+
+.image_upload img
+{
+    width: 24px;
+    cursor: pointer;
+}
+
+
+/*video*/
+.video_text_area
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+
+#video_message
+{
+	width: 100%;
+	height: auto;
+	min-height: 80px;
+	overflow: auto;
+	padding:6px 24px 6px 12px;
+}
+
+
+
+.video_upload
+{
+	position: absolute;
+	top:3px;
+	right:3px;
+}
+.video_upload > form > input
+{
+    display: none;
+}
+
+.video_upload img
+{
+    width: 24px;
+    cursor: pointer;
+}
+
+
+/*security account*/
+#settingSecurity{
+margin-left: 15%;margin-top: 5%; margin-right: 15%;
+}
+
+
+#editProfile{
+margin-left: 15%;margin-top: 5%; margin-right: 15%;
+}
+
+
+#accountsSeting{
+margin-left: 15%;margin-top: 5%; margin-right: 15%;
+}
+/*when the width of browser is less than 1000px */
+@media (max-width: 1000px){
+	#profile-details{
+		height: auto;
+		display: flex; 
+		flex-direction: column;
+		width: auto
+	}
+
+
+	/*header*/
+
+	header.userHeader{
+	height: 80px;
+	position: fixed;
+	}
+	
+	main#sign{margin-top: 10%; border-radius: 2%;}
+
+	div#fullname{
+		display: flex;
+		flex-direction: column;
+	}
+	/*#fullname input{
+		border-radius: 10px;  padding: 10px;
+	}*/
+	#fn{
+		width: 100%; 
+	}
+	
+	#ln{
+		width:100%;
+		margin-left: 0;
+		}
+
+	
+
+	
+
+
+
+
+	main.userIndex{margin-top: 26px;margin-left: 30%; }
+
+	/*profile*/
+	#profile-details{
+		margin-top: 90px;
+	}
+	/*signup*/
+	input#birthday{
+		width: 100%;
+	}
+	select#gender{
+		width: 100%;
+	}
+
+	div.text{
+		display: none;
+	}
+	div.login{
+		width: 100%;
+	}
+
+
+	#user_list_details{
+		display: none;
+	}
+
+
+	/*security setting*/
+	#settingSecurity{
+	margin-top: 13%; 
+	}
+
+	/*edit profile*/
+	#editProfile{
+	margin-top: 13%;
+	}
+
+	/*account setting*/
+	#accountsSeting{
+	margin-top: 13%;
+	}
+}
